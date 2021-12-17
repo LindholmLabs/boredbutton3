@@ -75,7 +75,7 @@ footer{
 }
 
 .main:active {
-    color: #3F617C
+    color: #3F617C;
     border-radius: 50%;
 }
 
