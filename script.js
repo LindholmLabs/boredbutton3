@@ -1,5 +1,11 @@
-function myFunction() {
-  document.getElementById("main").innerHTML = "BANGBANG IN ANOS EVERYDAY";
+function showFact() {
+    console.log("running function")
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+        document.getElementById("main").innerHTML = this.responseText;
+    }
+    xhttp.open("GET", "getFact.php");
+    xhttp.send();
 }
 
 
