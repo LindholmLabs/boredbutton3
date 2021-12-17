@@ -1,4 +1,5 @@
 function showFact() {
+    moveButton();
     console.log("running function")
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
@@ -8,6 +9,9 @@ function showFact() {
     xhttp.send();
 }
 
+function moveButton() {
+    document.getElementById("main").style.bottom = "35%";
+}
 
 
 var canvas = document.getElementById('bang'),
