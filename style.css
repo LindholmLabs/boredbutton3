@@ -1,0 +1,109 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@font-face {
+	font-family: krublight;
+	src: url('fonts/Krublight.ttf');
+}
+
+canvas{
+    background-color: #fcfcfc;
+}
+
+.headline {
+	color: #3F617C;
+	font-size: 2.3em;
+	letter-spacing: 0.3em;
+	font-family: krublight;
+	margin-top: 2%;
+	position: fixed;
+  font-weight: bold;
+  top: 0;
+	text-align: center;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+.main{
+  width: 180px;
+  height: 180px;
+  border: 2px solid #3F617C;
+  background-color: #3F617C;
+  opacity: 0.75;
+  position: fixed;
+  top:0; bottom:0; left:0;right:0;
+  margin: auto;
+  border-radius: 50%;
+  transition: 0.7s;
+}
+
+footer{
+	color: #3F617C;
+	text-align: center;
+	margin-bottom: 1%;
+	font-size: 1em;
+	position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+	width: 100%;
+	font-family: krublight;
+}
+
+.main:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 50%;
+}
+
+.main:active {
+    color: #3F617C
+    border-radius: 50%;
+}
+
+.main:hover{
+  opacity: 1;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.main:hover:before {
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.main:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #3F617C;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
