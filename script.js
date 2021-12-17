@@ -3,7 +3,7 @@ function showFact() {
     console.log("running function")
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
-        document.getElementById("main").innerHTML = this.responseText;
+        document.getElementById("fact_text").innerHTML = this.responseText;
     }
     xhttp.open("GET", "getFact.php");
     xhttp.send();
@@ -11,6 +11,8 @@ function showFact() {
 
 function moveButton() {
     document.getElementById("main").style.bottom = "35%";
+    document.getElementById("fact_text").style.display = "inline";
+    document.getElementById("fact_text").style.opacity = "100%";
 }
 
 
