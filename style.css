@@ -120,10 +120,8 @@ footer{
     margin-top: 25%;
     display: none;
     opacity: 0;
-    animation: sexy 20s linear;
+    animation: sexy 2s linear;
     opacity: 0;
-    transition: opacity .3s ease-in-out;
-    transition-delay: 2s;
 }
 
 @keyframes sexy {
