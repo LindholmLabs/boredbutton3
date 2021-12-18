@@ -44,6 +44,7 @@ canvas{
   margin: auto;
   border-radius: 50%;
   transition: 0.7s;
+  z-index: 2;
 }
 
 footer{
@@ -115,13 +116,16 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%;
+    width: 70%;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 28%;
     display: none;
     opacity: 0;
     animation: sexy 2s linear;
     opacity: 0;
+    font-size: 1.8em;
+    font-family: krublight;
+    z-index: 1;
 }
 
 @keyframes sexy {
