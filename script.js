@@ -10,7 +10,7 @@ function showFact() {
 }
 
 function moveButton() {
-    document.getElementById("main").style.bottom = "35%";
+    document.getElementById("button").style.bottom = "35%";
     document.getElementById("fact_text").style.display = "inline";
     document.getElementById("fact_text").style.opacity = "100%";
 }
