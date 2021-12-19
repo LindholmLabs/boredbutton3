@@ -161,5 +161,6 @@ footer{
     #fact_text{
       font-size: 1em;
       margin-top: 57vh;
+      max-width: 90%;
     }
 }
