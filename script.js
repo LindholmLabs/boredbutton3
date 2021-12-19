@@ -1,6 +1,6 @@
 function showFact() {
     moveButton();
-    console.log("running function")
+    console.log("running function");
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
         document.getElementById("fact_text").innerHTML = this.responseText;
@@ -21,8 +21,7 @@ var canvas = document.getElementById('bang'),
    can_h = parseInt(canvas.getAttribute('height')),
    ctx = canvas.getContext('2d');
 
-// console.log(typeof can_w);
-var BALL_NUM = 60
+var BALL_NUM = parseInt((window.innerHeight + window.innerWidth) * 0.025);
 
 var ball = {
       x: 0,
@@ -255,7 +254,7 @@ function initCanvas(){
     can_h = parseInt(canvas.getAttribute('height'));
 }
 window.addEventListener('resize', function(e){
-    console.log('Window Resize...');
+    BALL_NUM = parseInt((window.innerHeight + window.innerWidth) * 0.025);
     initCanvas();
 });
 
@@ -268,12 +267,10 @@ goMovie();
 
 // Mouse effect
 canvas.addEventListener('mouseenter', function(){
-    console.log('mouseenter');
     mouse_in = true;
     balls.push(mouse_ball);
 });
 canvas.addEventListener('mouseleave', function(){
-    console.log('mouseleave');
     mouse_in = false;
     var new_balls = [];
     Array.prototype.forEach.call(balls, function(b){
@@ -287,5 +284,4 @@ canvas.addEventListener('mousemove', function(e){
     var e = e || window.event;
     mouse_ball.x = e.pageX;
     mouse_ball.y = e.pageY;
-    // console.log(mouse_ball);
 });
