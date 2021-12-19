@@ -141,8 +141,7 @@ cursor: pointer;
     }
     #fact_text{
       font-size: 1em;
-      margin-top: 67%;
-      position: absolute;
+      position: relative;
     }
 }
 
