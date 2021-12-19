@@ -16,8 +16,8 @@ html, body{
 
 canvas{
     background-color: #fcfcfc;
-    z-index: -1;
-    position: absolute;
+    z-index: 0;
+    top: 0;
 }
 
 .noselect {
@@ -150,6 +150,21 @@ footer{
   0% { background-position: 0 0; }
   50% { background-position: 500% 0; }
   100% { background-position: 0 0; }
+}
+
+/*Banner ad*/
+#banner-ad {
+  z-index: 9;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+@media only screen
+  and (max-width: 800px) {
+    #banner-ad {
+      display: none;
+    }
 }
 
 /* Ändringar för mobil */
