@@ -16,6 +16,8 @@ html, body{
 
 canvas{
     background-color: #fcfcfc;
+    z-index: 0;
+    position: absolute;
 }
 
 .noselect {
