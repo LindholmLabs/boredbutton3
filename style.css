@@ -113,13 +113,10 @@ footer{
   filter: blur(7px);
   width: calc(100% + 6px);
   height: calc(100% + 6px);
+  opacity: 0;
   animation: glowing 20s linear infinite;
   transition: opacity .3s ease-in-out;
   border-radius: 50%;
-}
-
-#button:active{
-  background: transparent;
 }
 
 #button:active:after {
