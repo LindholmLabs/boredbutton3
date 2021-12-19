@@ -96,6 +96,7 @@ footer{
   border-radius: 50%;
   transition: 0.7s;
   z-index: 2;
+  cursor: pointer;
 }
 
 #button:before {
@@ -121,17 +122,14 @@ footer{
 #button:active:after {
   background: #3F617C;
   opacity: 1;
-  
 }
 
 #button:hover {
   opacity: 0.95;
-  
 }
 
 #button:hover:before {
   opacity: 0.95;
-  
 }
 
 #button:after {
