@@ -21,7 +21,7 @@ var canvas = document.getElementById('bang'),
    can_h = parseInt(canvas.getAttribute('height')),
    ctx = canvas.getContext('2d');
 
-var BALL_NUM = parseInt((window.innerHeight + window.innerWidth) * 0.025);
+var BALL_NUM = parseInt(((window.innerHeight + window.innerWidth) * 0.02) + 10);
 
 var ball = {
       x: 0,
@@ -44,7 +44,7 @@ var ball = {
 
 // Line
    link_line_width = 0.8,
-   dis_limit = 300,
+   dis_limit = parseInt(((window.innerHeight + window.innerWidth) * 0.07)+90),
    add_mouse_point = true,
    mouse_in = false,
    mouse_ball = {
