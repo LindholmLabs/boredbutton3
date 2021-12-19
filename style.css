@@ -122,7 +122,6 @@ footer{
 
 #button:active:after {
   background: #3F617C;
-  opacity: 1;
 }
 
 #button:hover {
