@@ -41,9 +41,10 @@ canvas{
   font-weight: bold;
   top: 0;
 	text-align: center;
-	left: 0;
+	left: 50%;
 	right: 0;
 	width: fit-content;
+  transform: translate(-50%, 0);
 }
 
 /* Fakta */
@@ -103,10 +104,11 @@ footer{
 	font-size: 1em;
 	position: fixed;
   bottom: 0;
-  left: 0;
+  left: 50%;
   right: 0;
 	width: fit-content;
 	font-family: krublight;
+  transform: translate(-50%, 0);
 }
 
 /* Knappen */

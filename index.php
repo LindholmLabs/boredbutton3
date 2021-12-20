@@ -39,6 +39,6 @@
 
   </body>
   
-  <footer>© 2022 BoredButton3 | All rights reserved | By William &#8743 Francisco</footer>
+  <footer>© 2022 BoredButton3 | All rights reserved | By William &#8743 Francisco &#8743 Ali</footer>
 
 </html>
