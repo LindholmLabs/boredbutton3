@@ -122,14 +122,18 @@ footer{
   filter: blur(7px);
   width: calc(100% + 6px);
   height: calc(100% + 6px);
-  opacity: 0;
   animation: glowing 20s linear infinite;
   transition: opacity .3s ease-in-out;
   border-radius: 50%;
+  opacity: 0;
 }
 
 #button:focus {
   outline: none;
+}
+
+#button:focus:before {
+  opacity: 0.95;
 }
 
 #button:active:after {
@@ -154,6 +158,7 @@ footer{
   left: 0;
   top: 0;
   border-radius: 50%;
+  opacity: 1;
 }
 
 @keyframes glowing {
