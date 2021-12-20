@@ -218,3 +218,70 @@ footer{
 ::-webkit-scrollbar-thumb {
   background: #888;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0.9;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 20vw;
+  background-color: #3F617C;
+  opacity: 0.9;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -10vw;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  opacity: 0.9;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #3F617C transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+  opacity: 0.9;
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

@@ -1,3 +1,8 @@
+function myFunction() {
+    var popup = document.getElementById("pop");
+    popup.classList.toggle("show");
+}
+
 function showFact() {
     moveButton();
     console.log("running function");

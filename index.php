@@ -39,6 +39,14 @@
 
   </body>
   
-  <footer>© 2022 BoredButton3 | All rights reserved | By William &#8743 Francisco &#8743 Ali</footer>
+  <footer>© 2022 BoredButton3 | All rights reserved | By William &#8743 Francisco &#8743 Ali | 
+    <div class="popup" onclick="myFunction()">Contact
+      <span class="popuptext" id="pop">If you have any information that can help or opinions to improve the website
+        or have questions, contact us at our email address: boredbutton3(at)gmail(dot)com
+      </span>
+    </div>
+  </footer>
+
+
 
 </html>
