@@ -65,10 +65,14 @@ canvas{
     font-size: 1.8em;
     font-family: krublight;
     z-index: 10;
+    border-radius: 5px;
+    transition: background-color 1s, box-shadow 1s;
 }
 
 #fact_text:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(242, 242, 242, 0.7);
+  box-shadow: 0 0 20px rgba(242, 242, 242, 0.9);
+  
 }
 
 @keyframes appear {
