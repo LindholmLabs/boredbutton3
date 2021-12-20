@@ -43,7 +43,7 @@ canvas{
 	text-align: center;
 	left: 0;
 	right: 0;
-	width: 100%;
+	width: fit-content;
 }
 
 /* Fakta */
@@ -105,7 +105,7 @@ footer{
   bottom: 0;
   left: 0;
   right: 0;
-	width: 100%;
+	width: fit-content;
 	font-family: krublight;
 }
 
