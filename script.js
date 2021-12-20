@@ -1,4 +1,4 @@
-function myFunction() {
+function contact() {
     var popup = document.getElementById("pop");
     popup.classList.toggle("show");
 }
