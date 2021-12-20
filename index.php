@@ -44,7 +44,7 @@
       <span class="popuptext" id="pop">If you have any information that can help or opinions to improve the website
         or have questions, contact us at our email address: boredbutton3(at)gmail(dot)com
       </span>
-    </div> | By William &#8743 Francisco &#8743 Ali
+    </div> | By William &#8743 Francisco
     
   </footer>
 
