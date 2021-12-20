@@ -3,11 +3,17 @@
 
   <head>
 
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  user-scalable=0" name="viewport">
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  user-scalable=0" name="viewport"/>
+    
     <title>Bored Button 3</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="images/favicon.png">
+    <meta name="description" content="The best random useless facts on the internet."/>
+    <meta property="og:image" content="./images/meta_image.png"/>
+    <meta property="og:url" content="https://boredbutton3.com/index.php" />
+    <meta property="og:site_name" content="BoredButton3" />
+
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="icon" href="images/favicon.png"/>
     <meta name="a.validate.01" content="1abf335a434c48c0346f4f159c9baceb4b12" />
 
   </head>
