@@ -126,7 +126,7 @@ footer{
 
 #button:focus {
   outline: none;
-};
+}
 
 #button:active:after {
   background: #3F617C;
