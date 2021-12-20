@@ -13,6 +13,7 @@
   </head>
 
   <body class="noselect">
+    <?php require_once "/adcash_antiadblock-uxlgv6qq.php"; ?>
     <script src="//acscdn.com/script/ippg.js" data-adel="inpage" zid="5407851" rr="0" mads="2"></script>
     <div id="banner-ad">
       <script data-cfasync="false" type="text/javascript" src="https://www.onclickalgo.com/a/display.php?r=5407855"></script>
