@@ -208,12 +208,12 @@ footer{
 .popup {
   position: relative;
   display: inline-block;
-  cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   opacity: 0.9;
+  cursor: pointer;
 }
 
 .popup .popuptext {
@@ -276,6 +276,20 @@ footer{
     }
     .popup .popuptext {
       width: 90vw;
+      background-color: #3F617C;
+      opacity: 0.9;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px 0;
+      z-index: 1;
+      bottom: 125%;
       margin-left: -45vw;
+    }
+    .popup {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 8px 0;
     }
 }
