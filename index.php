@@ -28,7 +28,7 @@
     <script  src="./script.js"></script>
 
     <div class="bg">
-    		<p class="headline">BOREDBUTTON<sup>3</p>
+    		<h1 class="headline">BOREDBUTTON<sup>3</sup></h1>
     </div>
 
     <div class="main" id="main">
