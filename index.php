@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="./style.css"/>
     <link rel="icon" href="images/favicon.png"/>
-    <meta name="a.validate.01" content="1abf335a434c48c0346f4f159c9baceb4b12" />
+    <meta name="a.validate.01" content="b66ce7eea09607695ce1a7a19d24adaee5b8" />
 
   </head>
 
