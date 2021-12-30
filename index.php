@@ -14,15 +14,13 @@
 
     <link rel="stylesheet" href="./style.css"/>
     <link rel="icon" href="images/favicon.png"/>
-    <meta name="a.validate.01" content="b66ce7eea09607695ce1a7a19d24adaee5b8" />
 
   </head>
 
   <body class="noselect">
-    <script src="//acscdn.com/script/ippg.js" data-adel="inpage" zid="5407851" rr="0" mads="2"></script>
-    <div id="banner-ad">
+    <!--<div id="banner-ad">
       <script data-cfasync="false" type="text/javascript" src="https://www.onclickalgo.com/a/display.php?r=5407855"></script>
-    </div>
+    </div>-->
     <canvas id="bang" width="800" height="800"></canvas>
     
     <script  src="./script.js"></script>
